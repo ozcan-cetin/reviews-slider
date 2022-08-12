@@ -8,18 +8,20 @@ function App() {
   const [people, setPeople] = useState(data);
   const [index, setIndex] = useState(0);
 
-  
+  // setTimeout({
+  //   setIndex(index > 0 ? index-1 : people.length - 1)
+  // },1000)
 
   return (
     <div>
       <h1 className="text-center text-capitalize">reviews</h1>
-      <div className="container d-flex justify-content-center">
+      <div className="box d-flex justify-content-center text-center mt-4">
         <span className="left">
-          <FiChevronLeft onClick={()=>setIndex(index > 0 ? index-1 : people.length - 1)}/>
+          <FiChevronLeft onClick={()=>setIndex(index - 1)}/>
         </span>
         <Slider people={people} index={index} setIndex={setIndex} />
         <span className="right">
-          <FiChevronRight onClick={()=>setIndex(index < people.length -1 ? index + 1 : 0)}/>
+          <FiChevronRight onClick={()=>setIndex(index + 1)}/>
         </span>
       </div>
     </div>
