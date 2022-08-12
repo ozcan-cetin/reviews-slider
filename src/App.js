@@ -15,9 +15,9 @@ function App() {
   return (
     <div>
       <h1 className="text-center text-capitalize">reviews</h1>
-      <div className="box d-flex justify-content-center text-center mt-4">
+      <div className="box d-flex justify-content-between mx-auto mt-4">
         <span className="left">
-          <FiChevronLeft onClick={()=>setIndex(index > 0 ? index - 1 : people.lengt - 1)}/>
+          <FiChevronLeft onClick={()=>setIndex(index > 0 ? index - 1 : people.length - 1)}/>
         </span>
         <Slider people={people} index={index} setIndex={setIndex} />
         <span className="right">

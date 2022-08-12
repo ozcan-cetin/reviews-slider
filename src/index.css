@@ -23,20 +23,20 @@ object-fit: cover;
 
 .box{
   width: 80vw;
-  height: 450px;
-  max-width: 800px;
-  text-align: center;
-  margin: auto;
+  /* height: 450px;
+  max-width: 800px; */
+  /* text-align: center; */
+  /* margin: auto; */
   /* display: flex; */
   /* overflow: hidden; */
-  /* border: solid; */
+  border: solid;
 }
 
 .left{
   position: absolute;
   /* border: solid; */
-  left: 0;
-  bottom: 30%;
+  left: 20%;
+  bottom: 40%;
   font-size: 3rem !important;
   cursor: pointer;
 }
@@ -48,8 +48,8 @@ object-fit: cover;
 .right{
   position: absolute;
   /* border: solid; */
-  right: 0;
-  bottom: 30%;
+  right: 20%;
+  bottom: 40%;
   font-size: 3rem !important;
   cursor: pointer;
 }
@@ -77,8 +77,8 @@ object-fit: cover;
   width: 100%;
   height: 100%;
   opacity: 0;
-  border: solid;
-  transition: all 1s;
+  /* border: solid; */
+  transition: all .5s;
 }
 
 .review.activeSlide {
