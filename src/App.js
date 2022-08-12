@@ -8,6 +8,8 @@ function App() {
   const [people, setPeople] = useState(data);
   const [index, setIndex] = useState(0);
 
+  
+
   return (
     <div>
       <h1 className="text-center text-capitalize">reviews</h1>
