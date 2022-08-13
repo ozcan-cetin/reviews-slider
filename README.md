@@ -1,5 +1,10 @@
-# react-projects-7-slider
-
-#### IN ACTION
-
-[Gatsby-Airtable Project](https://gatsby-airtable-design-project.netlify.app/)
+# I studied in this project;
+* Bootstrap
+* React-Icons
+* UseState
+* UseEffect
+* setInterval, clearInterval
+* Props
+* Short Circuit
+* Map Method
+* CSS: media query, !important, object-fit
