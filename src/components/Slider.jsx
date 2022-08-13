@@ -27,11 +27,11 @@ const Slider = ({ people, index, setIndex }) => {
             </div>
 
             <div>
-              <h3 className="text-center">{name}</h3>
-              <p className="text-center">{title}</p>
+              <h3 className="text-center text-capitalize">{name}</h3>
+              <p className="text-center text-capitalize">{title}</p>
             </div>
             <div>
-              <p className="mx-auto text-center w-75 mt-5">{quote}</p>
+              <p className="mx-auto text-center w-75 mt-3">{quote}</p>
             </div>
             <span className="fs-1 text-warning">
               <FaQuoteRight />

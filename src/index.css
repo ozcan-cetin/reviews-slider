@@ -12,6 +12,7 @@ width: 150px;
 height: 150px;
 border-radius: 50%;
 border: 2px solid gray;
+margin-top: 1rem;
 }
 
 .imgDiv img{
@@ -36,7 +37,7 @@ object-fit: cover;
 .left{
   position: absolute;
   /* border: solid; */
-  left: 0%;
+  left: -10%;
   bottom: 30%;
   font-size: 3rem !important;
   cursor: pointer;
@@ -49,7 +50,7 @@ object-fit: cover;
 .right{
   position: absolute;
   /* border: solid; */
-  right: 0%;
+  right: -10%;
   bottom: 30%;
   font-size: 3rem !important;
   cursor: pointer;
@@ -67,9 +68,10 @@ object-fit: cover;
 
 .section-center {
   margin: 0 auto;
-  margin-top: 4rem;
+  /* margin-top: 2rem; */
+  /* padding-top: 3rem; */
   width: 80vw;
-  height: 450px;
+  height: 550px;
   max-width: 800px;
   text-align: center;
   position: relative;
